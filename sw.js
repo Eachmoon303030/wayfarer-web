@@ -1,7 +1,7 @@
 // © 2026 Eachmoon Barman (EB). All rights reserved.
 // Offline cache for Wayfarer. The publish script fills in the cache name (version + commit)
 // and the file list, so every publish makes phones fetch the new version.
-const CACHE = 'wayfarer-0.3.1-2a02df3';
+const CACHE = 'wayfarer-0.4.0-3f325f5';
 const FILES = ["./","apple-touch-icon.png","author_photo.jpg","icon-192.png","icon-512.png","icon-maskable-512.png","index.html","manifest.webmanifest","vendor/three.LICENSE.txt","vendor/three.min.js"];
 
 self.addEventListener('install', (e) => {
